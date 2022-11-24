@@ -1,0 +1,24 @@
+kibot:
+  version: 1
+
+preflight:
+  update_xml: true
+
+global:
+  out_dir: output
+
+outputs:
+- name: kicost
+  comment: Cost calculation spreadsheet
+  type: kicost
+  dir: .
+  options:
+    currency: EUR
+    no_price: True
+    ignore_fields: 
+      - datasheet
+
+- name: schematic_pdf
+  comment: Schematic in PDF format
+  type: pdf_sch_print
+  dir: .

@@ -566,7 +566,7 @@
       (reference "AE1") (unit 1) (value "Antenna_Chip") (footprint "OBSPro:GPS1003")
     )
     (path "/bd86e64d-47ab-4157-aab6-b537ca51decb/11fc1bb2-f0fa-4989-9c28-531400ef30f3"
-      (reference "BT1") (unit 1) (value "LiPo") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
+      (reference "BT1") (unit 1) (value "LiPo") (footprint "OBSPro:PSS-254-2W")
     )
     (path "/bd86e64d-47ab-4157-aab6-b537ca51decb/ad9239e6-6030-470d-add5-497f20ea00a1"
       (reference "C1") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1206_3216Metric")
@@ -776,7 +776,7 @@
       (reference "J1") (unit 1) (value "USB") (footprint "OBSPro:TYPE-C-31-M-12")
     )
     (path "/08cbb313-c929-4a57-9d75-96bbe8a710d6/3d01f69f-d739-4470-ac4f-16a6c32f8805"
-      (reference "J2") (unit 1) (value "BTN_DISP") (footprint "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical")
+      (reference "J2") (unit 1) (value "BTN_DISP") (footprint "OBSPro:PSS-254-5W")
     )
     (path "/08cbb313-c929-4a57-9d75-96bbe8a710d6/6ddce8a4-8019-47f6-bacb-63c47e2afc7c"
       (reference "J3") (unit 1) (value "MicroSD") (footprint "OBSPro:TF-01A")
@@ -786,6 +786,9 @@
     )
     (path "/92aed634-9154-4b6d-b7ec-aef540896df2/4fcd8922-93f5-4d1f-8e26-f37aa513f5fd/37eb238b-4fb7-4556-b767-8d2b1ff935a0"
       (reference "J5") (unit 1) (value "SWIM") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/92aed634-9154-4b6d-b7ec-aef540896df2/6999bf4f-806b-4b2c-ba79-9a2445a2a645"
+      (reference "J?") (unit 1) (value "Conn_01x06") (footprint "")
     )
     (path "/bd86e64d-47ab-4157-aab6-b537ca51decb/261cd877-fd95-45c3-879a-5022ad4ddc3c"
       (reference "L1") (unit 1) (value "1u") (footprint "Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm")

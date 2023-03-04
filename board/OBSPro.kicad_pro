@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.19999999999999998
         }
       },
@@ -53,6 +53,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.4,
+          "width": 0.26
         }
       ],
       "drc_exclusions": [],
@@ -110,7 +115,7 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
@@ -121,6 +126,8 @@
       "track_widths": [
         0.0,
         0.2,
+        0.29,
+        0.4,
         0.5
       ],
       "via_dimensions": [
@@ -143,10 +150,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_not_driven|825500|1155700|69e01931-0186-4650-80a7-2c8a05e450c5|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|914400|330200|10c2e17f-d17a-4aee-9f15-75d02a984f23|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },

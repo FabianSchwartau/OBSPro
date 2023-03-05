@@ -166,6 +166,9 @@
     (path "/92aed634-9154-4b6d-b7ec-aef540896df2/fee54e7f-9b39-4c83-8059-f8502fe1d713"
       (reference "#FLG05") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/08cbb313-c929-4a57-9d75-96bbe8a710d6/da944676-102f-4d89-8003-758207150a9f"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/bd86e64d-47ab-4157-aab6-b537ca51decb/d9760bc0-5d1d-4c9e-85fb-70b32e1ce9c6"
       (reference "#PWR01") (unit 1) (value "+USB") (footprint "")
     )
@@ -1013,7 +1016,7 @@
       (reference "R55") (unit 1) (value "220k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/92aed634-9154-4b6d-b7ec-aef540896df2/f648e098-07ac-4580-a9c6-5df0a70f8fe5"
-      (reference "RV1") (unit 1) (value "1k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical")
+      (reference "RV1") (unit 1) (value "1k") (footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical")
     )
     (path "/bd86e64d-47ab-4157-aab6-b537ca51decb/60d5b866-1ae5-4284-a070-c0fc04f3b981"
       (reference "U1") (unit 1) (value "IP5306") (footprint "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm")
@@ -1028,7 +1031,7 @@
       (reference "U4") (unit 1) (value "CP2102N") (footprint "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm")
     )
     (path "/08cbb313-c929-4a57-9d75-96bbe8a710d6/98911727-e98d-44ef-806b-a2d4f1932cb3"
-      (reference "U5") (unit 1) (value "ESP32-WROOM-32") (footprint "RF_Module:ESP32-WROOM-32")
+      (reference "U5") (unit 1) (value "ESP32-WROOM-32") (footprint "OBSPro:ESP32-WROOM-32")
     )
     (path "/92aed634-9154-4b6d-b7ec-aef540896df2/412818e5-207d-4258-894a-f978eda0e0c5"
       (reference "U6") (unit 1) (value "LM393") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")

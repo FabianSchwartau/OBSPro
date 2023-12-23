@@ -462,8 +462,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "output/OBSPro.step",
+      "vrml": "output/OBSPro.wrl"
     },
     "page_layout_descr_file": ""
   },

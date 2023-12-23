@@ -25,3 +25,5 @@ OBSPro-backups
 # Exported BOM files
 *.xml
 *.csv
+
+replicate_layout.log

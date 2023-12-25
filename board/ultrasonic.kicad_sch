@@ -2504,6 +2504,12 @@
     (property "Manufacturer" "HYDZ" (at 234.95 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+    (property "JLC_BasicPart" "no" (at 229.87 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC_PN" "C17701106" (at 229.87 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c270ff8a-4fb4-4231-bd80-6e9af0f33238))
     (pin "2" (uuid e7475e39-61e5-4066-adc2-a899e50b173b))
     (instances

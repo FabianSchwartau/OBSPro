@@ -2351,7 +2351,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Pin") (at 220.98 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d01f69f-d739-4470-ac4f-16a6c32f8805)
-    (property "Reference" "J2" (at 221.615 121.92 0)
+    (property "Reference" "J3" (at 221.615 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Disp" (at 221.615 124.46 0)
@@ -2404,7 +2404,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2956,7 +2956,7 @@
   (symbol (lib_id "Connector:Micro_SD_Card") (at 186.69 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ddce8a4-8019-47f6-bacb-63c47e2afc7c)
-    (property "Reference" "J3" (at 187.325 116.84 0)
+    (property "Reference" "J4" (at 187.325 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MicroSD" (at 187.325 119.38 0)
@@ -3019,7 +3019,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -3949,7 +3949,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 101.6 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da944676-102f-4d89-8003-758207150a9f)
-    (property "Reference" "#FLG05" (at 101.6 19.685 0)
+    (property "Reference" "#FLG06" (at 101.6 19.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 101.6 16.51 0)
@@ -3965,7 +3965,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG06") (unit 1)
         )
       )
     )

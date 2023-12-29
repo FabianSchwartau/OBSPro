@@ -1867,7 +1867,7 @@
   (symbol (lib_id "Device:R_Small") (at 110.49 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 013b8e62-a5b7-401e-a19c-4b4812e6a3f1)
-    (property "Reference" "R19" (at 106.68 41.91 90)
+    (property "Reference" "R18" (at 106.68 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 115.57 41.91 90)
@@ -1905,7 +1905,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R19") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1914,7 +1914,7 @@
   (symbol (lib_id "power:+3V3") (at 213.36 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01f930e1-324c-413c-abec-9ff8f853fc37)
-    (property "Reference" "#PWR066" (at 213.36 38.1 0)
+    (property "Reference" "#PWR064" (at 213.36 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 213.36 30.734 0)
@@ -1930,7 +1930,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -1939,7 +1939,7 @@
   (symbol (lib_id "Device:R_Small") (at 101.6 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0212dd4b-847f-413c-bb62-0f2edfed1ca3)
-    (property "Reference" "R27" (at 102.87 138.43 0)
+    (property "Reference" "R26" (at 102.87 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 102.87 140.97 0)
@@ -1977,7 +1977,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R27") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -2051,7 +2051,7 @@
   (symbol (lib_id "power:+5V") (at 102.87 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07bf5729-afd3-494d-825b-785f228d1ce1)
-    (property "Reference" "#PWR087" (at 102.87 173.99 0)
+    (property "Reference" "#PWR085" (at 102.87 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 102.87 166.624 0)
@@ -2067,7 +2067,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -2133,7 +2133,7 @@
   (symbol (lib_id "power:GND") (at 68.58 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1dd37003-adc8-480d-a91a-c13025a7a161)
-    (property "Reference" "#PWR083" (at 68.58 156.21 0)
+    (property "Reference" "#PWR081" (at 68.58 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 153.67 0)
@@ -2149,7 +2149,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -2158,7 +2158,7 @@
   (symbol (lib_id "power:+3V3") (at 55.88 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e6567c2-bca1-4600-b63e-6e54ba0b0f23)
-    (property "Reference" "#PWR067" (at 55.88 39.37 0)
+    (property "Reference" "#PWR065" (at 55.88 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 55.88 32.004 0)
@@ -2174,7 +2174,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -2183,7 +2183,7 @@
   (symbol (lib_id "Device:R_Small") (at 114.3 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22151aa4-bc89-43d2-b6f3-5dc327d7c9fd)
-    (property "Reference" "R30" (at 114.3 144.78 90)
+    (property "Reference" "R29" (at 114.3 144.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 114.3 147.32 90)
@@ -2221,7 +2221,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R30") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -2230,7 +2230,7 @@
   (symbol (lib_id "power:GND") (at 91.44 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2215bff2-bf3d-49e7-a69e-abb640801c79)
-    (property "Reference" "#PWR073" (at 91.44 105.41 0)
+    (property "Reference" "#PWR071" (at 91.44 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 102.87 0)
@@ -2246,7 +2246,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -2255,7 +2255,7 @@
   (symbol (lib_id "power:+3V3") (at 196.85 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22f5e6fc-01b9-49d2-a151-78115a838519)
-    (property "Reference" "#PWR065" (at 196.85 34.29 0)
+    (property "Reference" "#PWR063" (at 196.85 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 196.85 26.924 0)
@@ -2271,7 +2271,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -2393,7 +2393,7 @@
   (symbol (lib_id "power:GND") (at 80.01 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36e0410d-6589-4186-af3d-cad74831d50d)
-    (property "Reference" "#PWR062" (at 80.01 34.29 0)
+    (property "Reference" "#PWR060" (at 80.01 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 31.75 0)
@@ -2409,7 +2409,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -2418,7 +2418,7 @@
   (symbol (lib_id "power:GND") (at 93.98 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ef0ee3a-38a3-4faa-a312-f085376b4ac8)
-    (property "Reference" "#PWR088" (at 93.98 184.15 0)
+    (property "Reference" "#PWR086" (at 93.98 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 181.61 0)
@@ -2434,7 +2434,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -2557,7 +2557,7 @@
   (symbol (lib_id "power:GND") (at 102.87 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4de71915-042e-4d21-b0ca-175a95eeb788)
-    (property "Reference" "#PWR089" (at 102.87 184.15 0)
+    (property "Reference" "#PWR087" (at 102.87 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 181.61 0)
@@ -2573,7 +2573,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -2582,7 +2582,7 @@
   (symbol (lib_id "power:GND") (at 99.06 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 528b5263-e7b5-48ab-8022-0f0ea196f06e)
-    (property "Reference" "#PWR063" (at 99.06 34.29 0)
+    (property "Reference" "#PWR061" (at 99.06 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 31.75 0)
@@ -2598,7 +2598,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -2664,7 +2664,7 @@
   (symbol (lib_id "power:GND") (at 180.34 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5500e73d-8cbd-420d-b119-e154a065bf67)
-    (property "Reference" "#PWR068" (at 180.34 41.91 0)
+    (property "Reference" "#PWR066" (at 180.34 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 39.37 0)
@@ -2680,7 +2680,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -2689,7 +2689,7 @@
   (symbol (lib_id "power:GND") (at 213.36 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e6292ab-ec0b-4e71-ae9a-1048501b686c)
-    (property "Reference" "#PWR074" (at 213.36 111.76 0)
+    (property "Reference" "#PWR072" (at 213.36 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 109.22 0)
@@ -2705,7 +2705,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -2714,7 +2714,7 @@
   (symbol (lib_id "Device:R_Small") (at 274.32 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f563920-df65-457f-bb4a-6b42180a8f47)
-    (property "Reference" "R25" (at 276.86 88.8999 0)
+    (property "Reference" "R24" (at 276.86 88.8999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.1k" (at 276.86 91.4399 0)
@@ -2752,7 +2752,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R25") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -2761,7 +2761,7 @@
   (symbol (lib_id "Device:R_Small") (at 68.58 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 647addf9-c40c-4995-acad-a783736989e3)
-    (property "Reference" "R29" (at 71.12 146.0499 0)
+    (property "Reference" "R28" (at 71.12 146.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 71.12 148.5899 0)
@@ -2799,7 +2799,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R29") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -2808,7 +2808,7 @@
   (symbol (lib_id "Device:R_Small") (at 110.49 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6669b105-f73e-4588-857a-d175fa796614)
-    (property "Reference" "R20" (at 106.68 49.53 90)
+    (property "Reference" "R19" (at 106.68 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 115.57 49.53 90)
@@ -2846,7 +2846,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R20") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2855,7 +2855,7 @@
   (symbol (lib_id "power:+3V3") (at 180.34 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 672a8e68-88e8-4937-8b27-823d491f25f2)
-    (property "Reference" "#PWR064" (at 180.34 34.29 0)
+    (property "Reference" "#PWR062" (at 180.34 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 180.34 26.924 0)
@@ -2871,7 +2871,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -3008,7 +3008,7 @@
   (symbol (lib_id "power:+3V3") (at 274.32 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 714a3965-0786-43b1-9050-74b5c1942eaf)
-    (property "Reference" "#PWR072" (at 274.32 91.44 0)
+    (property "Reference" "#PWR070" (at 274.32 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 274.32 84.074 0)
@@ -3024,7 +3024,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -3033,7 +3033,7 @@
   (symbol (lib_id "power:GND") (at 259.08 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7286197b-782a-4501-92b0-27f81e1cbf5d)
-    (property "Reference" "#PWR077" (at 265.43 133.35 0)
+    (property "Reference" "#PWR075" (at 265.43 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 133.35 0)
@@ -3049,7 +3049,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -3058,7 +3058,7 @@
   (symbol (lib_id "power:GND") (at 59.69 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 729cbe9e-9dd3-45b5-9b42-ada088cc40ee)
-    (property "Reference" "#PWR082" (at 59.69 156.21 0)
+    (property "Reference" "#PWR080" (at 59.69 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 153.67 0)
@@ -3074,7 +3074,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -3083,7 +3083,7 @@
   (symbol (lib_id "Device:R_Small") (at 55.88 137.16 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 733f8393-68f3-40bf-805e-e07bf3259e3a)
-    (property "Reference" "R26" (at 55.88 132.08 90)
+    (property "Reference" "R25" (at 55.88 132.08 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 55.88 134.62 90)
@@ -3121,7 +3121,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R26") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -3130,7 +3130,7 @@
   (symbol (lib_id "power:GND") (at 101.6 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7636a3d5-1191-401d-b17f-78cdcdd0a6cf)
-    (property "Reference" "#PWR086" (at 101.6 161.29 0)
+    (property "Reference" "#PWR084" (at 101.6 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 158.75 0)
@@ -3146,7 +3146,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -3155,7 +3155,7 @@
   (symbol (lib_id "power:+3V3") (at 144.78 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78dd1964-5412-4ff7-b161-144e783fa710)
-    (property "Reference" "#PWR076" (at 144.78 137.16 0)
+    (property "Reference" "#PWR074" (at 144.78 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 144.78 129.794 0)
@@ -3171,7 +3171,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -3180,7 +3180,7 @@
   (symbol (lib_id "Device:R_Small") (at 110.49 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a188d46-c4d5-4a8f-b65c-83247289749e)
-    (property "Reference" "R18" (at 106.68 39.37 90)
+    (property "Reference" "R17" (at 106.68 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 115.57 39.37 90)
@@ -3218,7 +3218,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R18") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -3293,7 +3293,7 @@
   (symbol (lib_id "power:+3V3") (at 262.89 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b99c021-5471-4e98-af06-ffb3f13d9d97)
-    (property "Reference" "#PWR071" (at 262.89 91.44 0)
+    (property "Reference" "#PWR069" (at 262.89 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 262.89 84.074 0)
@@ -3309,7 +3309,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -3318,7 +3318,7 @@
   (symbol (lib_id "Device:R_Small") (at 140.97 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81d4d089-4de0-4050-bc35-52af55288e76)
-    (property "Reference" "R23" (at 140.97 78.74 90)
+    (property "Reference" "R22" (at 140.97 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 140.97 81.28 90)
@@ -3356,7 +3356,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R23") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -3365,7 +3365,7 @@
   (symbol (lib_id "OBSPro:+USB") (at 76.2 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8600ae2f-fa70-4c18-a615-0104738b1934)
-    (property "Reference" "#PWR069" (at 76.2 52.07 0)
+    (property "Reference" "#PWR067" (at 76.2 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+USB" (at 76.2 43.18 0)
@@ -3381,7 +3381,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -3390,7 +3390,7 @@
   (symbol (lib_id "power:GND") (at 71.12 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 870e22c7-8705-4b71-9335-94533019644d)
-    (property "Reference" "#PWR061" (at 71.12 34.29 0)
+    (property "Reference" "#PWR059" (at 71.12 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 31.75 0)
@@ -3406,7 +3406,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -3415,7 +3415,7 @@
   (symbol (lib_id "power:GND") (at 152.4 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a09f5d9-681f-42be-aa6f-1e64107f76d7)
-    (property "Reference" "#PWR081" (at 152.4 149.86 0)
+    (property "Reference" "#PWR079" (at 152.4 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 147.32 0)
@@ -3431,7 +3431,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -3542,7 +3542,7 @@
   (symbol (lib_id "power:+BATT") (at 110.49 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b89b6d8-c501-4c95-a1f2-9ffd9d951c05)
-    (property "Reference" "#PWR079" (at 110.49 140.97 0)
+    (property "Reference" "#PWR077" (at 110.49 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 110.49 133.604 0)
@@ -3558,7 +3558,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -3567,7 +3567,7 @@
   (symbol (lib_id "Device:R_Small") (at 196.85 33.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9bd5368b-eb93-43d2-b64f-f59051b7bfb4)
-    (property "Reference" "R15" (at 199.39 31.7499 0)
+    (property "Reference" "R14" (at 199.39 31.7499 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 199.39 34.2899 0)
@@ -3605,7 +3605,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R15") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3614,7 +3614,7 @@
   (symbol (lib_id "Device:R_Small") (at 140.97 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2a34df1-e4bc-42df-a567-e6efd568ab7f)
-    (property "Reference" "R22" (at 140.97 60.96 90)
+    (property "Reference" "R21" (at 140.97 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 140.97 63.5 90)
@@ -3661,7 +3661,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R22") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -3670,7 +3670,7 @@
   (symbol (lib_id "power:+BATT") (at 101.6 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3f79150-e13c-450b-ae9f-257a54d9c542)
-    (property "Reference" "#PWR078" (at 101.6 140.97 0)
+    (property "Reference" "#PWR076" (at 101.6 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 101.6 133.604 0)
@@ -3686,7 +3686,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -3695,7 +3695,7 @@
   (symbol (lib_id "power:GND") (at 208.28 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aad9ef47-03fa-4ebe-bdbe-e432d4f40685)
-    (property "Reference" "#PWR085" (at 208.28 158.75 0)
+    (property "Reference" "#PWR083" (at 208.28 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.28 156.21 0)
@@ -3711,7 +3711,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -3720,7 +3720,7 @@
   (symbol (lib_id "Device:R_Small") (at 102.87 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aef9c58c-cd02-4c74-a867-7ed3c8688149)
-    (property "Reference" "R31" (at 104.14 173.99 0)
+    (property "Reference" "R30" (at 104.14 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 104.14 176.53 0)
@@ -3758,7 +3758,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R31") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -3767,7 +3767,7 @@
   (symbol (lib_id "OBSPro:+USB") (at 88.9 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afc12e51-b368-4168-9502-69115dbcc82c)
-    (property "Reference" "#PWR060" (at 88.9 24.13 0)
+    (property "Reference" "#PWR058" (at 88.9 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+USB" (at 88.9 15.24 0)
@@ -3783,7 +3783,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -3792,7 +3792,7 @@
   (symbol (lib_id "power:GND") (at 144.78 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5bd8a95-889c-40da-8f9d-73033d07fb5d)
-    (property "Reference" "#PWR080" (at 144.78 149.86 0)
+    (property "Reference" "#PWR078" (at 144.78 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 147.32 0)
@@ -3808,7 +3808,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -3817,7 +3817,7 @@
   (symbol (lib_id "Device:R_Small") (at 110.49 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8fe7d41-e106-4a79-b367-a9b50dd88b59)
-    (property "Reference" "R17" (at 106.68 36.83 90)
+    (property "Reference" "R16" (at 106.68 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 115.57 36.83 90)
@@ -3864,7 +3864,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R17") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -3873,7 +3873,7 @@
   (symbol (lib_id "power:+3V3") (at 259.08 115.57 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2d3e061-51e6-4e56-bdad-ee9830a45e9a)
-    (property "Reference" "#PWR075" (at 255.27 115.57 0)
+    (property "Reference" "#PWR073" (at 255.27 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 262.89 115.57 90)
@@ -3889,7 +3889,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -3898,7 +3898,7 @@
   (symbol (lib_id "power:GND") (at 111.76 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7004b04-43ee-4249-bbe8-fd0a7eebbbfb)
-    (property "Reference" "#PWR070" (at 111.76 76.2 0)
+    (property "Reference" "#PWR068" (at 111.76 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 73.66 0)
@@ -3914,7 +3914,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -3923,7 +3923,7 @@
   (symbol (lib_id "Device:R_Small") (at 62.23 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da36cd17-28a1-4ae7-b73d-db82159a1bd8)
-    (property "Reference" "R16" (at 62.23 31.75 90)
+    (property "Reference" "R15" (at 62.23 31.75 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7k" (at 62.23 34.29 90)
@@ -3970,7 +3970,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R16") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -4004,7 +4004,7 @@
   (symbol (lib_id "Device:R_Small") (at 262.89 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcfb1ba1-cf53-4182-9762-cd52617d4f19)
-    (property "Reference" "R24" (at 265.43 88.8999 0)
+    (property "Reference" "R23" (at 265.43 88.8999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.1k" (at 265.43 91.4399 0)
@@ -4042,7 +4042,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R24") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -4051,7 +4051,7 @@
   (symbol (lib_id "Device:R_Small") (at 110.49 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e28a660b-a09d-4a80-9709-b694c5b2a3f1)
-    (property "Reference" "R28" (at 111.76 138.43 0)
+    (property "Reference" "R27" (at 111.76 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 111.76 140.97 0)
@@ -4089,7 +4089,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R28") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -4293,7 +4293,7 @@
   (symbol (lib_id "power:GND") (at 83.82 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eeb5205c-20cf-401d-bfe3-b349760d683c)
-    (property "Reference" "#PWR084" (at 83.82 156.21 0)
+    (property "Reference" "#PWR082" (at 83.82 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 153.67 0)
@@ -4309,7 +4309,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -4374,7 +4374,7 @@
   (symbol (lib_id "Device:R_Small") (at 111.76 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid feb33175-5ca3-4304-9eef-20ec934d4d5a)
-    (property "Reference" "R21" (at 114.3 66.0399 0)
+    (property "Reference" "R20" (at 114.3 66.0399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 114.3 68.5799 0)
@@ -4412,7 +4412,7 @@
     (instances
       (project "OBSPro"
         (path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
-          (reference "R21") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )

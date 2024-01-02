@@ -37,6 +37,12 @@
   )
 
 
+  (text "Additionally required parts\nDisplay cable:\n  - 16x C2982060, HCTL, HC-2510-T, crimp contacts\n  - 2x C2982057, HCTL, HC-2510-8Y, connectors\n  - 1x 8-pin cable, 2m\nBattery:\n  - ?\n"
+    (at 181.61 53.34 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0fed9510-8dbb-4308-8331-61651d26f1b9)
+  )
+
   (symbol (lib_id "Mechanical:MountingHole") (at 54.61 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0948ebbb-3636-47c9-a485-93da5f0a40da)

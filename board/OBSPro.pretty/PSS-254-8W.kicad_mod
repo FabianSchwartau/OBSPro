@@ -163,4 +163,9 @@
   (pad "6" thru_hole oval (at 3.81 0 90) (size 2.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 25c74daa-1819-4884-90c9-7d26cc45bf38))
   (pad "7" thru_hole oval (at 6.35 0 90) (size 2.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp a3fa4ee3-25ed-4077-8a3c-ee44b53cc007))
   (pad "8" thru_hole oval (at 8.89 0 90) (size 2.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp a6bffd81-06f3-4f49-9d88-bdef71ac1e49))
+  (model "${KIPRJMOD}/OBSPro.pretty/PSS-254-8W.step"
+    (offset (xyz 8.89 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

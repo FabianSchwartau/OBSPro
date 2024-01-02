@@ -25,4 +25,9 @@
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 303c363e-6901-4a6e-8fc9-ea25eb23072e))
   (pad "1" thru_hole circle (at -5 0) (size 1.8 1.8) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp b4e95c76-8209-4b37-a885-fc564ac96a20))
   (pad "2" thru_hole circle (at 5 0) (size 1.8 1.8) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 772a424f-21a4-4655-9766-0ba46f71403c))
+  (model "${KIPRJMOD}/OBSPro.pretty/HY40A16T12.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

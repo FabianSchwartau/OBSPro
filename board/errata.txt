@@ -1,21 +1,21 @@
-* 5.1 Ohm in der Bestellung?
-* Die ganzen Handsolder Footprints durch normale ersetzen
-* BOM neu exportieren für richtiges Poti
-* BAT +/- beschriften
-* Anderen I/Os beschriften
-* SDA/SCL Pull-Ups durch 1k ersetzen
-* R27 am Button-Mosfet-Grab durch 1k ersetzen
-* 5V/3.3V Power-LEDs zu hell
-* 5V-LED könnte man einsparen und durch die am IP5306 ersetzen
-* RX/TX doppelt getauscht
-* LED2/3 am IP5306 müssen nach +BAT gehen
+=== v1.0 ===
+
+!* 5.1 Ohm in der Bestellung?
+!* Die ganzen Handsolder Footprints durch normale ersetzen
+!* BOM neu exportieren für richtiges Poti
+!* BAT +/- beschriften
+!* Anderen I/Os beschriften
+!* SDA/SCL Pull-Ups durch 1k ersetzen
+!* R27 am Button-Mosfet-Grab durch 1k ersetzen
+!* 5V/3.3V Power-LEDs zu hell
+!* 5V-LED könnte man einsparen und durch die am IP5306 ersetzen
+!* RX/TX doppelt getauscht
+!* LED2/3 am IP5306 müssen nach +BAT gehen
 * I2C des IP5306 als Bestückungsoption?
-* Batterie-Spannungsteiler an Pin IO34 fehlt
-* Polyfuse vor Batterie?
-* BTN_PRESS nicht angeschlossen (IO13)
-* LEDs zu hell
-* I/Os beschriften
-* Ultraschall macht beim boot irgendwas manchmal
+!* Batterie-Spannungsteiler an Pin IO34 fehlt
+* (Poly)fuse vor Batterie?
+!* BTN_PRESS nicht angeschlossen (IO13)
+!* Ultraschall macht beim boot irgendwas manchmal
 
 Änderungen an der US-Schaltung:
 * Mute-Widerstand auf 100R verringert
@@ -23,3 +23,8 @@
 * Serien-Rs im Rx Signalpfad von 6.8k auf 3.3k verringert
     -> Mit den Cs und Rs wird der Gain von ~27 dB auf ~33 dB angehoben, pro Stufe
 * Widerstände für Vref: 330R (high), 680R (low)
+
+
+=== v2.0 ===
+Sicherung?
+Beads an Leitungen zum Display?

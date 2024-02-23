@@ -1,6 +1,6 @@
 (footprint "TYPE-C-31-M-12" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 99932c06-a2d1-4d30-841f-1d5462b1c9d1)

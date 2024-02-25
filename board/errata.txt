@@ -1,21 +1,20 @@
-* 5.1 Ohm in der Bestellung?
-* Die ganzen Handsolder Footprints durch normale ersetzen
-* BOM neu exportieren für richtiges Poti
-* BAT +/- beschriften
-* Anderen I/Os beschriften
-* SDA/SCL Pull-Ups durch 1k ersetzen
-* R27 am Button-Mosfet-Grab durch 1k ersetzen
-* 5V/3.3V Power-LEDs zu hell
-* 5V-LED könnte man einsparen und durch die am IP5306 ersetzen
-* RX/TX doppelt getauscht
-* LED2/3 am IP5306 müssen nach +BAT gehen
+=== v1.0 ===
+!* 5.1 Ohm in der Bestellung?
+!* Die ganzen Handsolder Footprints durch normale ersetzen
+!* BOM neu exportieren für richtiges Poti
+!* BAT +/- beschriften
+!* Anderen I/Os beschriften
+!* SDA/SCL Pull-Ups durch 1k ersetzen
+!* R27 am Button-Mosfet-Grab durch 1k ersetzen
+!* 5V/3.3V Power-LEDs zu hell
+!* 5V-LED könnte man einsparen und durch die am IP5306 ersetzen
+!* RX/TX doppelt getauscht
+!* LED2/3 am IP5306 müssen nach +BAT gehen
 * I2C des IP5306 als Bestückungsoption?
-* Batterie-Spannungsteiler an Pin IO34 fehlt
-* Polyfuse vor Batterie?
-* BTN_PRESS nicht angeschlossen (IO13)
-* LEDs zu hell
-* I/Os beschriften
-* Ultraschall macht beim boot irgendwas manchmal
+!* Batterie-Spannungsteiler an Pin IO34 fehlt
+* (Poly)fuse vor Batterie?
+!* BTN_PRESS nicht angeschlossen (IO13)
+!* Ultraschall macht beim boot irgendwas manchmal
 
 Änderungen an der US-Schaltung:
 * Mute-Widerstand auf 100R verringert
@@ -23,3 +22,24 @@
 * Serien-Rs im Rx Signalpfad von 6.8k auf 3.3k verringert
     -> Mit den Cs und Rs wird der Gain von ~27 dB auf ~33 dB angehoben, pro Stufe
 * Widerstände für Vref: 330R (high), 680R (low)
+
+
+=== v2.0 ===
+!* Sicherung
+!* Beads an Leitungen zum Display?
+* ROHS prüfen
+!* Die 9V haben ~3.3V durch die Diode des Step-Ups. Das führt zu ~22mA Standby Stromverbrauch
+  Messen, was die 9V tatsächlich brauchen und wenn das gering genug ist, den Stepup über die 5V laufen lassen
+!* Die 5V sind, auch wenn der IP5303 aus ist, mit 0,7-1,6V da - bei höheren Werten funktioniert die Button-Schaltung nicht mehr
+  Ein Pull-Down an den 5V scheint ordentlich zu helfen. Bei ursprünglich 1,6V gehts mit 1k auf 0,4V runter. Mit 220R auf 0,1V.
+  Interessanter weise sinkt dadurch der gesamte Stromverbrauch...
+!* Power-Planes vom Rand weg ziehen
+!* Die +BATT power Plane schneidet sich unten mit dem Sichtfenster und ist daher nur über nen hauch Tüdeldraht angeschlossen
+!* USB Buchse (und SD-Karte?) weiter raus schauen lassen
+!* Die Beads der Signale am Display-Stecker durch 220R ersetzen
+* ESD-Dioden für die Signale zum Display?
+!* IP5303 schaltet bei zu kleiner Last nach ~15 Sekunden aus
+!* GPIOs 34-39 sind nur inputs!
+  - SENSOR2_IO verlegt auf GPIO22
+!* Synchronous UART für die PGA einzeln verbinden - MISO kann geteilt werden - das TCI Protokoll ist Müll
+!* Time decoupling benutzen? Dann: DEPL Transistor Drain muss an pin 6 vom Trafo und Pins 6 vom Trafo darf nicht nach GND

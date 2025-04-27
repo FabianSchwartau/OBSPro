@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1b575199-a76e-4620-8a1a-43f78ed7da24")
 	(paper "A4")
 	(lib_symbols
@@ -86,6 +86,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(text "Additionally required parts\nDisplay cable:\n  - 16x C2982060, HCTL, HC-2510-T, crimp contacts\n  - 2x C2982057, HCTL, HC-2510-8Y, connectors\n  - 1x 8-pin cable, 2m\nBattery:\n  - ?\n"
@@ -362,6 +363,10 @@
 	(sheet
 		(at 96.52 69.85)
 		(size 40.64 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -400,6 +405,10 @@
 	(sheet
 		(at 96.52 100.33)
 		(size 40.64 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -438,6 +447,10 @@
 	(sheet
 		(at 96.52 36.83)
 		(size 40.64 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -478,4 +491,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

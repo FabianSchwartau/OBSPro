@@ -4273,7 +4273,7 @@
 	)
 	(text "CHARGE CIRCUIT"
 		(exclude_from_sim no)
-		(at 162.052 53.594 0)
+		(at 162.56 51.308 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4364,12 +4364,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "501dfbc3-478f-49b0-a68e-75f68507b462")
-	)
-	(junction
-		(at 144.78 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51f9fecf-df22-47ea-ab30-479c925a9645")
 	)
 	(junction
 		(at 49.53 44.45)
@@ -4605,16 +4599,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 58.42) (xy 144.78 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20d4dd87-8384-4f19-a0fb-f2e29992b9e1")
-	)
-	(wire
-		(pts
 			(xy 48.26 31.75) (xy 77.47 31.75)
 		)
 		(stroke
@@ -4725,16 +4709,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 45.72) (xy 144.78 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a1d987-72de-44fb-8a09-c731d5ae5ca4")
-	)
-	(wire
-		(pts
 			(xy 36.83 113.03) (xy 41.91 113.03)
 		)
 		(stroke
@@ -4795,16 +4769,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 45.72) (xy 134.62 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57a66784-365b-44f5-9e7d-c8f063c8ecdc")
-	)
-	(wire
-		(pts
 			(xy 118.11 95.25) (xy 119.38 95.25)
 		)
 		(stroke
@@ -4862,6 +4826,16 @@
 			(type default)
 		)
 		(uuid "5cd4fe9c-fa1b-4623-b7af-61042b26587d")
+	)
+	(wire
+		(pts
+			(xy 147.32 45.72) (xy 146.05 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8a40fc-b0ed-4715-9c12-9584de01c376")
 	)
 	(wire
 		(pts
@@ -5315,16 +5289,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 45.72) (xy 147.32 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a55317-15f9-4bb0-89cf-ca0f9ca62257")
-	)
-	(wire
-		(pts
 			(xy 184.15 99.06) (xy 184.15 97.79)
 		)
 		(stroke
@@ -5355,6 +5319,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 45.72) (xy 146.05 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77cb5b4-d269-4f05-8ae1-3d786afd6ed0")
+	)
+	(wire
+		(pts
 			(xy 144.78 25.4) (xy 147.32 25.4)
 		)
 		(stroke
@@ -5382,16 +5356,6 @@
 			(type default)
 		)
 		(uuid "bfc68cd9-cab1-45f1-88a8-bee694ccb85a")
-	)
-	(wire
-		(pts
-			(xy 144.78 53.34) (xy 144.78 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfd8d90c-6d41-4626-bf00-c806b219b83e")
 	)
 	(wire
 		(pts
@@ -5625,16 +5589,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 58.42) (xy 144.78 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b74aff-e0c6-419e-bc34-18ba99efde2f")
-	)
-	(wire
-		(pts
 			(xy 180.34 25.4) (xy 182.88 25.4)
 		)
 		(stroke
@@ -5725,16 +5679,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 55.88) (xy 142.24 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ede78eec-8b12-41bd-a161-5eb1dcb1d9c4")
-	)
-	(wire
-		(pts
 			(xy 50.8 26.67) (xy 50.8 25.4)
 		)
 		(stroke
@@ -5752,16 +5696,6 @@
 			(type default)
 		)
 		(uuid "eff44313-ff29-46db-b1bb-01ad4a6896b2")
-	)
-	(wire
-		(pts
-			(xy 137.16 45.72) (xy 134.62 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0674f96-187c-4be6-bf84-177908a6ba3e")
 	)
 	(wire
 		(pts
@@ -5822,16 +5756,6 @@
 			(type default)
 		)
 		(uuid "fbe93142-5fb6-4c40-ad13-978845470bf5")
-	)
-	(wire
-		(pts
-			(xy 144.78 45.72) (xy 144.78 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc2c4e4f-62e3-4b92-af26-27fa8f1ee8de")
 	)
 	(wire
 		(pts
@@ -6675,203 +6599,6 @@
 			(project "OBSPro"
 				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/bd86e64d-47ab-4157-aab6-b537ca51decb"
 					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 139.7 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "145641a3-20a3-4782-b681-0d06869b6727")
-		(property "Reference" "R50"
-			(at 141.478 47.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 141.986 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PN" "C25803"
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAF1003T5E"
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" ""
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6ff4c5a-f254-4b98-83ba-193643082822")
-		)
-		(pin "2"
-			(uuid "8db37fee-ddb4-46b4-af93-9ec3c77ffdb6")
-		)
-		(instances
-			(project "OBSPro"
-				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/bd86e64d-47ab-4157-aab6-b537ca51decb"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OBSPro:+USB")
-		(at 134.62 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18e466f6-5f48-4dd0-a8a4-4b681b74f5b5")
-		(property "Reference" "#PWR02"
-			(at 134.62 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+USB"
-			(at 130.556 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b28d568-9143-48d1-b419-bf0c8ec74fbe")
-		)
-		(instances
-			(project "OBSPro"
-				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/bd86e64d-47ab-4157-aab6-b537ca51decb"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8534,119 +8261,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 137.16 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43281c71-ed6a-4f92-a473-b5e77e14cace")
-		(property "Reference" "J5"
-			(at 137.16 61.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Temp"
-			(at 137.16 64.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "S2B-PH-K-S(LF)(SN)"
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell_PN" ""
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser_PN" ""
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PN" "C173752"
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "664ebfea-86fb-41f6-ae7c-c85ba0d222bb")
-		)
-		(pin "1"
-			(uuid "0d6c5384-9329-4fd6-b80a-770db92a9cd7")
-		)
-		(instances
-			(project "OBSPro"
-				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/bd86e64d-47ab-4157-aab6-b537ca51decb"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 41.91 115.57 270)
 		(unit 1)
@@ -10217,6 +9831,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 146.05 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65fc32fd-f6ae-4d89-8007-0d205c2a496c")
+		(property "Reference" "#PWR09"
+			(at 146.05 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82d3072d-2913-40e9-976a-4349553b6b86")
+		)
+		(instances
+			(project "OBSPro"
+				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/bd86e64d-47ab-4157-aab6-b537ca51decb"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OBSPro:USB_C_Receptacle_USB2.0")
 		(at 33.02 41.91 0)
 		(unit 1)
@@ -10920,138 +10600,6 @@
 			(project "OBSPro"
 				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/bd86e64d-47ab-4157-aab6-b537ca51decb"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 144.78 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8230da2f-9ed9-4966-96e3-03a70b32ab16")
-		(property "Reference" "R49"
-			(at 146.558 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "62k"
-			(at 146.558 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PN" "C23221"
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAF6202T5E"
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" ""
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e76457ca-3019-4b23-b44d-c5d6f55338d3")
-		)
-		(pin "2"
-			(uuid "8e0e8e0d-2349-435a-9525-000c6e3fbf50")
-		)
-		(instances
-			(project "OBSPro"
-				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/bd86e64d-47ab-4157-aab6-b537ca51decb"
-					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -13372,7 +12920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenBikeSensor:Connector_1x02_Switch"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 			(at 50.8 107.95 0)
 			(effects
 				(font
@@ -13401,6 +12949,33 @@
 		)
 		(property "Bemerkung" ""
 			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "S2B-XH-A(LF)(SN)"
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C157931"
+			(at 50.8 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13477,7 +13052,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "S2B-PH-K-S(LF)(SN)"
+		(property "MPN" " X2510WR-02-N0SN"
 			(at 25.4 113.03 0)
 			(effects
 				(font
@@ -13504,7 +13079,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PN" "C173752"
+		(property "JLC_PN" "C843326"
 			(at 25.4 113.03 0)
 			(effects
 				(font
@@ -13513,7 +13088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JST"
+		(property "Manufacturer" "XKB Connection"
 			(at 25.4 113.03 0)
 			(effects
 				(font
@@ -14499,72 +14074,6 @@
 			(project "OBSPro"
 				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/bd86e64d-47ab-4157-aab6-b537ca51decb"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e99dbbe7-dc18-4a8e-a62f-3ea7bbdfbd33")
-		(property "Reference" "#PWR09"
-			(at 144.78 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f824313d-7ab4-4933-87ca-68a0fb458e52")
-		)
-		(instances
-			(project "OBSPro"
-				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/bd86e64d-47ab-4157-aab6-b537ca51decb"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)

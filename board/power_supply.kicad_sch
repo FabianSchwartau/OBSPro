@@ -2509,7 +2509,7 @@
 							)
 						)
 					)
-					(number "EP"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7327,7 +7327,7 @@
 		(pin "8"
 			(uuid "6f4a02fb-8326-403a-80d7-451ab7d4f4ab")
 		)
-		(pin "EP"
+		(pin "9"
 			(uuid "27cdef3c-843b-489f-a6a0-23e3e266d3a1")
 		)
 		(instances
@@ -13025,7 +13025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "OBSPro:PSS-254-2W"
 			(at 25.4 113.03 0)
 			(effects
 				(font

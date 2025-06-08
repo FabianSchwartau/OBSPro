@@ -3925,7 +3925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -3952,7 +3952,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1206W4J0100T5E"
+		(property "MPN" "0603WAF100JT5E"
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -3979,7 +3979,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PN" "C25349"
+		(property "JLC_PN" "C22859"
 			(at 90.17 71.12 0)
 			(effects
 				(font

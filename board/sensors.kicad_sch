@@ -3920,7 +3920,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e97a5c38-55fa-4f78-819c-d57eca46cab5")
 		(property "Reference" "#PWR090"
 			(at 105.41 93.98 0)
@@ -3931,12 +3930,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 105.41 86.614 0)
+		(property "Value" "+BATT_ALW"
+			(at 99.822 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4006,7 +4006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 110.49 0)
 			(effects
 				(font
@@ -4033,7 +4033,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1206W4J0100T5E"
+		(property "MPN" "0603WAF100JT5E"
 			(at 105.41 110.49 0)
 			(effects
 				(font
@@ -4060,7 +4060,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PN" "C25349"
+		(property "JLC_PN" "C22859"
 			(at 105.41 110.49 0)
 			(effects
 				(font

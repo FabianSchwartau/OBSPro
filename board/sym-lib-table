@@ -1,3 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "OBSPro")(type "KiCad")(uri "${KIPRJMOD}/OBSPro.kicad_sym")(options "")(descr ""))
+  (lib (name "MKFS")(type "KiCad")(uri "${KIPRJMOD}/MKFS.kicad_sym")(options "")(descr ""))
 )

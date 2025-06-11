@@ -7350,7 +7350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm"
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm"
 			(at 158.75 63.754 0)
 			(effects
 				(font
@@ -7396,6 +7396,24 @@
 			)
 		)
 		(property "Manufacturer" "Legend-Si"
+			(at 158.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_PN" ""
+			(at 158.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_PN" ""
 			(at 158.75 35.56 0)
 			(effects
 				(font
@@ -7919,7 +7937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR6045S"
 			(at 237.49 24.13 0)
 			(effects
 				(font
@@ -7983,6 +8001,24 @@
 			)
 		)
 		(property "JLC_Price10" ""
+			(at 237.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_PN" ""
+			(at 237.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_PN" ""
 			(at 237.49 24.13 0)
 			(effects
 				(font
@@ -8762,7 +8798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR6045S"
 			(at 232.41 97.79 0)
 			(effects
 				(font
@@ -8826,6 +8862,24 @@
 			)
 		)
 		(property "JLC_Price10" ""
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_PN" ""
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_PN" ""
 			(at 232.41 97.79 0)
 			(effects
 				(font
@@ -9091,6 +9145,51 @@
 		)
 		(property "Description" "High precision battery protection IC"
 			(at 57.15 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 57.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 57.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell_PN" ""
+			(at 57.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_PN" ""
+			(at 57.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C2832124"
+			(at 57.15 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -43,3 +43,8 @@
   - SENSOR2_IO verlegt auf GPIO22
 !* Synchronous UART für die PGA einzeln verbinden - MISO kann geteilt werden - das TCI Protokoll ist Müll
 !* Time decoupling benutzen? Dann: DEPL Transistor Drain muss an pin 6 vom Trafo und Pins 6 vom Trafo darf nicht nach GND
+
+
+=== v2.2 ===
+* Akku Polarität prüfen
+* Schutz-IC Versorgung an BATT_ALW statt +BATT

@@ -3205,7 +3205,7 @@
 		)
 		(uuid "a0e7b9d7-6a2c-411a-bb09-242a7940ba76")
 	)
-	(text "Hardware-ID:\nopen = v2.0\n0.0V = v2.1\n0.5V = v2.2"
+	(text "Hardware-ID:\nopen = v2.0\n0.0V = v2.1\n0.5V = v2.2-2.3"
 		(exclude_from_sim no)
 		(at 260.604 120.396 0)
 		(effects

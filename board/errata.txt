@@ -46,5 +46,6 @@
 
 
 === v2.2 ===
-* Akku Polarität prüfen
-* Schutz-IC Versorgung an BATT_ALW statt +BATT
+!* Akku Polarität tauschen
+!* Schutz-IC Versorgung an BATT_ALW statt +BATT
+! Flash Problematik prüfen

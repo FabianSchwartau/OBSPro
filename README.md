@@ -25,7 +25,7 @@ Here is a list of parts and potential sources you will need besides the parts li
         - HYDZ: HY40A16T12-1: [LCSC](https://www.lcsc.com/product-detail/C17701106.html)
 - GPS antenna
     - BAT WIRELESS - BWGNSCNX18-18B1Y4L120: [LCSC](https://www.lcsc.com/product-detail/C784383.html)
-    - BAT WIRELESS: BWGNSCNX20-20B1Y4L120: [LCSC](https://www.lcsc.com/product-detail/C784384.html)
+    - BAT WIRELESS - BWGNSCNX20-20B1Y4L120: [LCSC](https://www.lcsc.com/product-detail/C784384.html)
 - Battery
     - Probably any 18650 style Lipo battery will do. As you need to solder the connectors to the battery, one with U-shaped strips already attached is recommended.
     - Samsung - INR18650-20R [akkuteile.de](https://www.akkuteile.de/lithium-ionen-akkus/18650/samsung/samsung-inr18650-20r-2000mah-3-7v-10c-20a-powertoolzelle-u-loetfahne_1006511_1668)
@@ -34,16 +34,17 @@ Here is a list of parts and potential sources you will need besides the parts li
     - 1x complete assembly: XKB Connection - X2510T-02-PSN-A22RB-L300-T5: [LCSC](https://www.lcsc.com/product-detail/C7423671.html) (if you buy this, you do not need the parts below)
     - 1x connector: XKB Connection - X2510H-02-N0: [LCSC](https://www.lcsc.com/product-detail/C843320.html)
     - 2x crimp contacts: XKB Connection - X2510T-PSN: [LCSC](https://www.lcsc.com/product-detail/C883292.html)
-    - 2x cable (use any ~0.25mm² cable you can find): XFCN - XF7122/XF7133: [LCSC](https://www.lcsc.com/product-detail/C42393296.html), [LCSC](https://www.lcsc.com/product-detail/C42393307.html?s_z=n_XFCN%2520XF71) (there are 10 in one bag, same for battery connector!)
+    - 2x cable (use any ~0.25mm² cable you can find): XFCN - XF7122/XF7133: [LCSC](https://www.lcsc.com/product-detail/C42393296.html), [LCSC](https://www.lcsc.com/product-detail/C42393307.html?s_z=n_XFCN%2520XF71) (same for battery connector!)
 - 2x zip ties
     - Maximum width: 4.5 mm, minimum length: 70 mm.
     - [LCSC](https://www.lcsc.com/product-detail/C5264191.html), [LCSC](https://www.lcsc.com/product-detail/C4944856.html), [LCSC](https://www.lcsc.com/product-detail/C5197740.html), your local hardware store, ...
 - 1x Power switch
+    - YUEN FUNG - ST-0-102-A01-T000-LF: [LCSC](https://www.lcsc.com/product-detail/C1788487.html)
 - Power switch cable + connector + crimp contacts
     - 1x complete assembly: SHOU HAN - 2.54-2P DT 200mm 24AWG: [LCSC](https://www.lcsc.com/product-detail/C5363463.html) (if you buy this, you do not need the parts below)
     - 1x connector: JST - XHP-2: [LCSC](https://www.lcsc.com/product-detail/C144401.html)
     - 2x crimp contacts: JST - SXH-001T-P0.6: [LCSC](https://www.lcsc.com/product-detail/C140573.html?s_z=n_C140573) (same for the display connector!)
-    - 2x cable (use any ~0.25mm² cable you can find): XFCN - XF7122/XF7133: [LCSC](https://www.lcsc.com/product-detail/C42393296.html), [LCSC](https://www.lcsc.com/product-detail/C42393307.html?s_z=n_XFCN%2520XF71) (there are 10 in one bag, same for battery connector!)
+    - 2x cable (use any ~0.25mm² cable you can find): XFCN - XF7122/XF7133: [LCSC](https://www.lcsc.com/product-detail/C42393296.html), [LCSC](https://www.lcsc.com/product-detail/C42393307.html?s_z=n_XFCN%2520XF71) (same for battery connector!)
 - 1x SD card
     - MK - MKUS128M-IGT1: [LCSC](https://www.lcsc.com/product-detail/C22374947.html)
     - SDTRUVAL - SDSDQAB-128M-SDWHA: [LCSC](https://www.lcsc.com/product-detail/C51885978.html)
@@ -62,7 +63,7 @@ Here is a list of parts and potential sources you will need besides the parts li
     - 1x complete assembly: TBD (if you buy this, you do not need the parts below)
     - 1x connector: JST - XHP-5: [LCSC](https://www.lcsc.com/product-detail/C144404.html), [LCSC](https://www.lcsc.com/product-detail/C339274.html)
     - 2x crimp contacts: JST - SXH-001T-P0.6: [LCSC](https://www.lcsc.com/product-detail/C140573.html?s_z=n_C140573) (same for the power switch connector!)
-    - 1x cable: Lapp - Unitronic Sensor LIFY11Y 5x0.25 7038862: [automation24.de](https://www.automation24.de/pur-sensorleitung-lapp-unitronic-sensor-lify11y-5x0-25-bk-7038862)
+    - 1x 2m cable: Lapp - Unitronic Sensor LIFY11Y 5x0.25 7038862: [automation24.de](https://www.automation24.de/pur-sensorleitung-lapp-unitronic-sensor-lify11y-5x0-25-bk-7038862)
 - 1x OLED Display
     - Multiple: [LCSC](https://www.lcsc.com/product-detail/C5248080.html), [Aliexpress](https://de.aliexpress.com/item/32896971385.html)
 - 1x Display button

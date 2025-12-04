@@ -48,4 +48,8 @@
 === v2.2 ===
 !* Akku Polarität tauschen
 !* Schutz-IC Versorgung an BATT_ALW statt +BATT
-! Flash Problematik prüfen
+!* Flash Problematik prüfen
+! Batteriebuchse falsche Ausführung (?)
+!* Boot-Button hinzufügen
+!* Kupferzonen für vollkommene Ausfüllung über Kanten hinausziehen
+!* Power-LED hinzufügen

@@ -2750,6 +2750,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_names
@@ -3241,13 +3391,13 @@
 		(uuid "3df2a5da-36c8-42bc-ae3d-9e64cccd5cb9")
 	)
 	(junction
-		(at 129.54 59.69)
+		(at 130.81 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54b5a86c-9eac-4b83-b065-478831f84d33")
 	)
 	(junction
-		(at 129.54 77.47)
+		(at 130.81 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57dca5f3-f1a3-4f8b-824d-0ca553ddec31")
@@ -3544,7 +3694,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 64.77) (xy 129.54 72.39)
+			(xy 146.05 46.99) (xy 130.81 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3594,7 +3744,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 72.39) (xy 129.54 64.77)
+			(xy 146.05 54.61) (xy 130.81 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3644,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 77.47) (xy 130.81 77.47)
+			(xy 130.81 59.69) (xy 132.08 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3684,7 +3834,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 59.69) (xy 137.16 59.69)
+			(xy 137.16 41.91) (xy 138.43 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3694,7 +3844,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 59.69) (xy 130.81 59.69)
+			(xy 130.81 41.91) (xy 132.08 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3734,7 +3884,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 64.77) (xy 129.54 59.69)
+			(xy 130.81 46.99) (xy 130.81 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3761,6 +3911,16 @@
 			(type default)
 		)
 		(uuid "6d6bc24a-43fa-4131-8fb8-2687a5b72145")
+	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7156601b-8466-4ac9-9735-63a76cd93c27")
 	)
 	(wire
 		(pts
@@ -3794,7 +3954,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 72.39) (xy 129.54 77.47)
+			(xy 130.81 54.61) (xy 130.81 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3804,7 +3964,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 77.47) (xy 129.54 77.47)
+			(xy 129.54 59.69) (xy 130.81 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3964,7 +4124,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 77.47) (xy 137.16 77.47)
+			(xy 137.16 59.69) (xy 138.43 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4044,6 +4204,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 88.9) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f672f0d6-d3eb-4a32-b935-d25ec03bc7cc")
+	)
+	(wire
+		(pts
 			(xy 207.01 151.13) (xy 208.28 151.13)
 		)
 		(stroke
@@ -4064,7 +4234,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 59.69) (xy 129.54 59.69)
+			(xy 129.54 41.91) (xy 130.81 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4193,7 +4363,7 @@
 		(uuid "58e0c416-6cbc-4750-b020-60811876ef56")
 	)
 	(label "EN"
-		(at 144.78 54.61 90)
+		(at 146.05 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4213,7 +4383,7 @@
 		(uuid "6410f09a-5911-425a-bbf1-7e342248dd72")
 	)
 	(label "~USB_DTR"
-		(at 128.27 59.69 180)
+		(at 129.54 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4292,6 +4462,16 @@
 		)
 		(uuid "99af9074-a6a6-4de2-9829-79df1aa6e04b")
 	)
+	(label "GPIO0"
+		(at 133.35 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3ab23b3-dd39-4cc0-8c7c-c6e1329bb9f9")
+	)
 	(label "HW_ID"
 		(at 217.17 97.79 0)
 		(effects
@@ -4313,7 +4493,7 @@
 		(uuid "ac315b53-0034-49b3-85cc-dd84c2df63d5")
 	)
 	(label "~USB_RTS"
-		(at 128.27 77.47 180)
+		(at 129.54 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4343,7 +4523,7 @@
 		(uuid "dca0c281-31bd-4b85-8702-e285cb0dc384")
 	)
 	(label "GPIO0"
-		(at 144.78 82.55 270)
+		(at 146.05 64.77 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4806,24 +4986,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 242.57 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 242.57 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C27592"
 			(at 242.57 139.7 0)
 			(effects
@@ -4843,24 +5005,6 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 242.57 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" ""
-			(at 242.57 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
 			(at 242.57 139.7 0)
 			(effects
 				(font
@@ -4948,42 +5092,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_Price1" "0.042"
-			(at 52.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0021"
-			(at 52.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" "0.0021"
-			(at 52.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" "0.0014"
-			(at 52.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "CC0603KRX7R9BB104"
 			(at 52.07 30.48 0)
 			(effects
@@ -4994,33 +5102,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 52.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 52.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 52.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.0020; 200: USD 0.0016; 800: USD 0.0013; 1600: USD 0.0012; 9600: USD 0.0011"
 			(at 52.07 30.48 0)
 			(effects
 				(font
@@ -5096,24 +5177,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 82.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 82.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C27592"
 			(at 82.55 55.88 0)
 			(effects
@@ -5133,24 +5196,6 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 82.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" ""
-			(at 82.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
 			(at 82.55 55.88 0)
 			(effects
 				(font
@@ -5229,15 +5274,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 267.97 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C25804"
 			(at 267.97 104.14 0)
 			(effects
@@ -5257,33 +5293,6 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 267.97 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.0014; 200: USD 0.0011; 1000: USD 0.0009; 2000: USD 0.0008"
-			(at 267.97 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 267.97 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0013"
 			(at 267.97 104.14 0)
 			(effects
 				(font
@@ -5361,15 +5370,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 267.97 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C23024"
 			(at 267.97 66.04 0)
 			(effects
@@ -5397,51 +5397,6 @@
 				(hide yes)
 			)
 		)
-		(property "kicost:JLC:pricing" ""
-			(at 267.97 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "no"
-			(at 267.97 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
-			(at 267.97 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell_PN" ""
-			(at 267.97 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser_PN" ""
-			(at 267.97 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "93a9e3c8-2c8c-45ec-881c-e52edfe72610")
 		)
@@ -5452,6 +5407,72 @@
 			(project "OBSPro"
 				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b282225-a6db-43b7-a7f7-e4b7df443dcd")
+		(property "Reference" "#PWR0100"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e64e961-6796-4c77-ba46-0fb30a411fb9")
+		)
+		(instances
+			(project "OBSPro"
+				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -5899,42 +5920,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_Price1" ""
-			(at 144.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
-			(at 144.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" ""
-			(at 144.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" ""
-			(at 144.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "CL10A106KO8NQNC"
 			(at 144.78 140.97 0)
 			(effects
@@ -5945,33 +5930,6 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 144.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 144.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 144.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.062; 10: USD 0.0062; 100: USD 0.0031; 1000: USD 0.0029"
 			(at 144.78 140.97 0)
 			(effects
 				(font
@@ -6049,24 +6007,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 267.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 267.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C23221"
 			(at 267.97 93.98 0)
 			(effects
@@ -6086,24 +6026,6 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 267.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" ""
-			(at 267.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
 			(at 267.97 93.98 0)
 			(effects
 				(font
@@ -6245,24 +6167,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 242.57 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 242.57 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C27592"
 			(at 242.57 144.78 0)
 			(effects
@@ -6290,24 +6194,6 @@
 				(hide yes)
 			)
 		)
-		(property "kicost:JLC:pricing" ""
-			(at 242.57 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
-			(at 242.57 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a7713356-61cd-4c0f-8d11-b4ab002d42ee")
 		)
@@ -6325,7 +6211,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN_BEC")
-		(at 142.24 77.47 0)
+		(at 143.51 59.69 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6335,7 +6221,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f0a7252-2714-495a-9ec4-06ebdbcd9732")
 		(property "Reference" "Q4"
-			(at 147.32 76.1999 0)
+			(at 148.59 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6230,7 @@
 			)
 		)
 		(property "Value" "S8050"
-			(at 147.32 78.7399 0)
+			(at 148.59 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6239,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 147.32 80.01 0)
+			(at 148.59 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 77.47 0)
+			(at 143.51 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,7 +6257,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 77.47 0)
+			(at 143.51 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,43 +6266,7 @@
 			)
 		)
 		(property "JLC_PN" "C2146"
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1" "0.216"
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0137"
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" "0.0144"
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" "0.0098"
-			(at 142.24 77.47 0)
+			(at 143.51 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,7 +6275,7 @@
 			)
 		)
 		(property "MPN" "S8050 J3Y"
-			(at 142.24 77.47 0)
+			(at 143.51 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,34 +6284,7 @@
 			)
 		)
 		(property "Manufacturer" "Jiangsu Changjing Electronics Technology Co., Ltd."
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.216; 10: USD 0.0216; 100: USD 0.0144; 1000: USD 0.0098"
-			(at 142.24 77.47 0)
+			(at 143.51 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,24 +6447,6 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell_PN" ""
-			(at 233.68 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser_PN" ""
-			(at 233.68 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C85824"
 			(at 233.68 134.62 0)
 			(effects
@@ -6795,42 +6600,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_Price1" "0.042"
-			(at 256.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0021"
-			(at 256.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" "0.0021"
-			(at 256.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" "0.0014"
-			(at 256.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "CC0603KRX7R9BB104"
 			(at 256.54 104.14 0)
 			(effects
@@ -6841,33 +6610,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 256.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 256.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 256.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.0020; 200: USD 0.0016; 800: USD 0.0013; 1600: USD 0.0012; 9600: USD 0.0011"
 			(at 256.54 104.14 0)
 			(effects
 				(font
@@ -7141,24 +6883,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 82.55 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 82.55 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C27592"
 			(at 82.55 45.72 0)
 			(effects
@@ -7178,24 +6902,6 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 82.55 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" ""
-			(at 82.55 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
 			(at 82.55 45.72 0)
 			(effects
 				(font
@@ -7337,24 +7043,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 82.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 82.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C27592"
 			(at 82.55 48.26 0)
 			(effects
@@ -7374,24 +7062,6 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 82.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" ""
-			(at 82.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
 			(at 82.55 48.26 0)
 			(effects
 				(font
@@ -7479,42 +7149,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_Price1" "0.056"
-			(at 43.18 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0051"
-			(at 43.18 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" "0.0028"
-			(at 43.18 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" "0.0027"
-			(at 43.18 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "CL10A105KB8NNNC"
 			(at 43.18 30.48 0)
 			(effects
@@ -7525,33 +7159,6 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 43.18 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 43.18 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 43.18 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.056; 10: USD 0.0056; 100: USD 0.0028; 1000: USD 0.0027"
 			(at 43.18 30.48 0)
 			(effects
 				(font
@@ -7649,69 +7256,6 @@
 			)
 		)
 		(property "JLC_PN" "C91145"
-			(at 186.69 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1" "0.1646"
-			(at 186.69 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.1622"
-			(at 186.69 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" "0.0998"
-			(at 186.69 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" "0.0933"
-			(at 186.69 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "no"
-			(at 186.69 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 186.69 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.1646; 10: USD 0.131; 100: USD 0.0998; 1000: USD 0.0933"
 			(at 186.69 135.89 0)
 			(effects
 				(font
@@ -7890,7 +7434,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN_BEC")
-		(at 142.24 59.69 0)
+		(at 143.51 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7899,7 +7443,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a8ab42f-737b-4c60-85b7-0f05fffbb271")
 		(property "Reference" "Q3"
-			(at 142.24 59.69 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +7452,7 @@
 			)
 		)
 		(property "Value" "S8050"
-			(at 142.24 59.69 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +7461,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 147.32 57.15 0)
+			(at 148.59 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +7470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 59.69 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +7479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 59.69 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,43 +7488,7 @@
 			)
 		)
 		(property "JLC_PN" "C2146"
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1" "0.216"
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0137"
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" "0.0144"
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" "0.0098"
-			(at 142.24 59.69 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,7 +7497,7 @@
 			)
 		)
 		(property "MPN" "S8050 J3Y"
-			(at 142.24 59.69 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7998,34 +7506,7 @@
 			)
 		)
 		(property "Manufacturer" "Jiangsu Changjing Electronics Technology Co., Ltd."
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.216; 10: USD 0.0216; 100: USD 0.0144; 1000: USD 0.0098"
-			(at 142.24 59.69 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +7600,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 133.35 77.47 90)
+		(at 134.62 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8128,7 +7609,7 @@
 		(fields_autoplaced yes)
 		(uuid "81d4d089-4de0-4050-bc35-52af55288e76")
 		(property "Reference" "R22"
-			(at 133.35 71.12 90)
+			(at 134.62 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +7617,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 133.35 73.66 90)
+			(at 134.62 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +7625,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 133.35 77.47 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +7634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 77.47 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,16 +7643,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 133.35 77.47 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,7 +7652,7 @@
 			)
 		)
 		(property "JLC_PN" "C25804"
-			(at 133.35 77.47 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8189,7 +7661,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1002T5E"
-			(at 133.35 77.47 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8198,34 +7670,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.0014; 200: USD 0.0011; 1000: USD 0.0009; 2000: USD 0.0008"
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0013"
-			(at 133.35 77.47 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8507,42 +7952,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_Price1" "2.448"
-			(at 201.93 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "2.5318"
-			(at 201.93 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" "2.3571"
-			(at 201.93 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" "2.3571"
-			(at 201.93 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "ESP32-WROOM-32"
 			(at 201.93 69.85 0)
 			(effects
@@ -8553,33 +7962,6 @@
 			)
 		)
 		(property "Manufacturer" "Espressif Systems"
-			(at 201.93 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "no"
-			(at 201.93 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 201.93 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 2.448; 10: USD 2.448; 100: USD 2.3571; 1000: USD 2.3571"
 			(at 201.93 69.85 0)
 			(effects
 				(font
@@ -8769,15 +8151,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 185.42 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C25804"
 			(at 185.42 33.02 0)
 			(effects
@@ -8797,33 +8170,6 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 185.42 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.0014; 200: USD 0.0011; 1000: USD 0.0009; 2000: USD 0.0008"
-			(at 185.42 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 185.42 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0013"
 			(at 185.42 33.02 0)
 			(effects
 				(font
@@ -8849,7 +8195,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 133.35 59.69 90)
+		(at 134.62 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8858,7 +8204,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2a34df1-e4bc-42df-a567-e6efd568ab7f")
 		(property "Reference" "R21"
-			(at 133.35 59.69 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8213,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 133.35 59.69 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8222,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 133.35 59.69 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +8231,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 59.69 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8894,16 +8240,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 133.35 59.69 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +8249,7 @@
 			)
 		)
 		(property "JLC_PN" "C25804"
-			(at 133.35 59.69 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,7 +8258,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1002T5E"
-			(at 133.35 59.69 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,34 +8267,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 133.35 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.0014; 200: USD 0.0011; 1000: USD 0.0009; 2000: USD 0.0008"
-			(at 133.35 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 133.35 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0013"
-			(at 133.35 59.69 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8975,6 +8285,101 @@
 			(project "OBSPro"
 				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 138.43 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5975595-94bf-4d0c-8e46-ac17ac324dc1")
+		(property "Reference" "SW1"
+			(at 138.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOOT"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS-1101-C-W"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C318938"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "353b3ad1-d16d-4a27-9c95-1866bd43fbbe")
+		)
+		(pin "2"
+			(uuid "25276560-9da9-4c2d-abc2-078163febdc9")
+		)
+		(instances
+			(project "OBSPro"
+				(path "/1b575199-a76e-4620-8a1a-43f78ed7da24/08cbb313-c929-4a57-9d75-96bbe8a710d6"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9044,42 +8449,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_Price1" "0.042"
-			(at 256.54 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0021"
-			(at 256.54 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" "0.0021"
-			(at 256.54 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" "0.0014"
-			(at 256.54 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "CC0603KRX7R9BB104"
 			(at 256.54 66.04 0)
 			(effects
@@ -9090,33 +8459,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 256.54 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 256.54 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 256.54 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.0020; 200: USD 0.0016; 800: USD 0.0013; 1600: USD 0.0012; 9600: USD 0.0011"
 			(at 256.54 66.04 0)
 			(effects
 				(font
@@ -9522,24 +8864,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 242.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 242.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C27592"
 			(at 242.57 137.16 0)
 			(effects
@@ -9559,24 +8883,6 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 242.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" ""
-			(at 242.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
 			(at 242.57 137.16 0)
 			(effects
 				(font
@@ -9721,24 +9027,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 34.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 34.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C23162"
 			(at 34.29 43.18 0)
 			(effects
@@ -9758,24 +9046,6 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 34.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.0009; 200: USD 0.0007; 1000: USD 0.0006; 2000: USD 0.0005"
-			(at 34.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.001"
 			(at 34.29 43.18 0)
 			(effects
 				(font
@@ -9917,24 +9187,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C27592"
 			(at 82.55 43.18 0)
 			(effects
@@ -9954,24 +9206,6 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" ""
-			(at 82.55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
 			(at 82.55 43.18 0)
 			(effects
 				(font
@@ -10191,42 +9425,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_Price1" "0.042"
-			(at 71.12 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0021"
-			(at 71.12 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" "0.0021"
-			(at 71.12 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" "0.0014"
-			(at 71.12 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "CC0603KRX7R9BB104"
 			(at 71.12 30.48 0)
 			(effects
@@ -10237,33 +9435,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 71.12 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 71.12 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 71.12 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.0020; 200: USD 0.0016; 800: USD 0.0013; 1600: USD 0.0012; 9600: USD 0.0011"
 			(at 71.12 30.48 0)
 			(effects
 				(font
@@ -10348,42 +9519,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_Price1" "2.1016"
-			(at 63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "1.9728"
-			(at 63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" "1.5155"
-			(at 63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" "1.4105"
-			(at 63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "CP2102-GMR"
 			(at 63.5 71.12 0)
 			(effects
@@ -10394,33 +9529,6 @@
 			)
 		)
 		(property "Manufacturer" "SILICON LABS"
-			(at 63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 2.1016; 10: USD 1.8524; 100: USD 1.5155; 1000: USD 1.4105"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -10579,15 +9687,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 267.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C22807"
 			(at 267.97 55.88 0)
 			(effects
@@ -10607,51 +9706,6 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 267.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" ""
-			(at 267.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" ""
-			(at 267.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" ""
-			(at 267.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell_PN" ""
-			(at 267.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser_PN" ""
 			(at 267.97 55.88 0)
 			(effects
 				(font
@@ -10739,42 +9793,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_Price1" "0.042"
-			(at 168.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0021"
-			(at 168.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" "0.0021"
-			(at 168.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" "0.0014"
-			(at 168.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "CC0603KRX7R9BB104"
 			(at 168.91 33.02 0)
 			(effects
@@ -10785,33 +9803,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 168.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 168.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 168.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.0020; 200: USD 0.0016; 800: USD 0.0013; 1600: USD 0.0012; 9600: USD 0.0011"
 			(at 168.91 33.02 0)
 			(effects
 				(font
@@ -10899,42 +9890,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_Price1" "0.056"
-			(at 267.97 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0051"
-			(at 267.97 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price100" "0.0028"
-			(at 267.97 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price1000" "0.0027"
-			(at 267.97 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "CL10A105KB8NNNC"
 			(at 267.97 138.43 0)
 			(effects
@@ -10945,33 +9900,6 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 267.97 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 267.97 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCBA" "yes"
-			(at 267.97 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.056; 10: USD 0.0056; 100: USD 0.0028; 1000: USD 0.0027"
 			(at 267.97 138.43 0)
 			(effects
 				(font
@@ -11050,15 +9978,6 @@
 				(hide yes)
 			)
 		)
-		(property "PCBA" "yes"
-			(at 83.82 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC_PN" "C25804"
 			(at 83.82 72.39 0)
 			(effects
@@ -11078,33 +9997,6 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 83.82 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "kicost:JLC:pricing" "1: USD 0.0014; 200: USD 0.0011; 1000: USD 0.0009; 2000: USD 0.0008"
-			(at 83.82 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_BasicPart" "yes"
-			(at 83.82 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_Price10" "0.0013"
 			(at 83.82 72.39 0)
 			(effects
 				(font

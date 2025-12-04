@@ -561,13 +561,13 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -588,7 +588,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -610,48 +610,12 @@
         },
         {
           "group_by": false,
-          "label": "Farnell_PN",
-          "name": "Farnell_PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLC_BasicPart",
-          "name": "JLC_BasicPart",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "JLC_PN",
           "name": "JLC_PN",
           "show": true
         },
         {
           "group_by": false,
-          "label": "JLC_Price1",
-          "name": "JLC_Price1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLC_Price10",
-          "name": "JLC_Price10",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLC_Price100",
-          "name": "JLC_Price100",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLC_Price1000",
-          "name": "JLC_Price1000",
-          "show": false
-        },
-        {
-          "group_by": true,
           "label": "MPN",
           "name": "MPN",
           "show": false
@@ -660,19 +624,7 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser_PN",
-          "name": "Mouser_PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PCBA",
-          "name": "PCBA",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -684,12 +636,6 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "kicost:JLC:pricing",
-          "name": "kicost:JLC:pricing",
           "show": false
         },
         {
@@ -710,7 +656,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -13,7 +13,7 @@ There are multiple option for the GPS module. You can use any MAX-8* or MAX-10* 
 # BOM
 Here is a list of parts and potential sources you will need besides the parts listed in the BOM file of the PCB itself.
 
-- Non-SMD PCB parts
+- THT PCB parts
     - These are also included in the PCB BOM, but not populated by us in the kit.
     - 1x display jack:
         - JST-  S5B-XH-A(LF)(SN): [LCSC](https://www.lcsc.com/product-detail/C263757.html)
@@ -31,10 +31,19 @@ Here is a list of parts and potential sources you will need besides the parts li
     - Samsung - INR18650-20R [akkuteile.de](https://www.akkuteile.de/lithium-ionen-akkus/18650/samsung/samsung-inr18650-20r-2000mah-3-7v-10c-20a-powertoolzelle-u-loetfahne_1006511_1668)
     - Multiple: [akkuservice-krueger.de](https://www.akkuservice-krueger.de/epages/64221289.sf/de_DE/?ObjectID=15698141&ViewAction=ViewFaceted&FacetValue_CategoryID=15698141&FacetValue_PreDefString_de_2010346554=L%C3%B6tfahne+U-Form&CurrencyID=EUR&FacetRange_ListPrice=&FacetRange_ListPrice=) (you can select with solder strip for each battery)
 - Battery cable + connector + crimp contacts
+    - 1x complete assembly: XKB Connection - X2510T-02-PSN-A22RB-L300-T5: [LCSC](https://www.lcsc.com/product-detail/C7423671.html) (if you buy this, you do not need the parts below)
+    - 1x connector: XKB Connection - X2510H-02-N0: [LCSC](https://www.lcsc.com/product-detail/C843320.html)
+    - 2x crimp contacts: XKB Connection - X2510T-PSN: [LCSC](https://www.lcsc.com/product-detail/C883292.html)
+    - 2x cable (use any ~0.25mm² cable you can find): XFCN - XF7122/XF7133: [LCSC](https://www.lcsc.com/product-detail/C42393296.html), [LCSC](https://www.lcsc.com/product-detail/C42393307.html?s_z=n_XFCN%2520XF71) (there are 10 in one bag, same for battery connector!)
 - 2x zip ties
     - Maximum width: 4.5 mm, minimum length: 70 mm.
     - [LCSC](https://www.lcsc.com/product-detail/C5264191.html), [LCSC](https://www.lcsc.com/product-detail/C4944856.html), [LCSC](https://www.lcsc.com/product-detail/C5197740.html), your local hardware store, ...
-- Power switch + cable + connector + crimp contacts
+- 1x Power switch
+- Power switch cable + connector + crimp contacts
+    - 1x complete assembly: SHOU HAN - 2.54-2P DT 200mm 24AWG: [LCSC](https://www.lcsc.com/product-detail/C5363463.html) (if you buy this, you do not need the parts below)
+    - 1x connector: JST - XHP-2: [LCSC](https://www.lcsc.com/product-detail/C144401.html)
+    - 2x crimp contacts: JST - SXH-001T-P0.6: [LCSC](https://www.lcsc.com/product-detail/C140573.html?s_z=n_C140573) (same for the display connector!)
+    - 2x cable (use any ~0.25mm² cable you can find): XFCN - XF7122/XF7133: [LCSC](https://www.lcsc.com/product-detail/C42393296.html), [LCSC](https://www.lcsc.com/product-detail/C42393307.html?s_z=n_XFCN%2520XF71) (there are 10 in one bag, same for battery connector!)
 - 1x SD card
     - MK - MKUS128M-IGT1: [LCSC](https://www.lcsc.com/product-detail/C22374947.html)
     - SDTRUVAL - SDSDQAB-128M-SDWHA: [LCSC](https://www.lcsc.com/product-detail/C51885978.html)
@@ -50,9 +59,13 @@ Here is a list of parts and potential sources you will need besides the parts li
     - Used for: 4x main housing mount, 2x cable strain relief for display unit.
     - Multiple: [Gedex](https://www.gedex-shop.de/de/MUTTERN/Sechskantmuttern-FORM-B--NIEDRIG--MIT-FASE--DIN-5206/Sechskantmuttern-DIN-934/Sechskantmuttern-DIN-934-M3/), [LCSC](https://www.lcsc.com/product-detail/C357432.html)
 - Display cable + connector + crimp contacts
-- OLED Display
+    - 1x complete assembly: TBD (if you buy this, you do not need the parts below)
+    - 1x connector: JST - XHP-5: [LCSC](https://www.lcsc.com/product-detail/C144404.html), [LCSC](https://www.lcsc.com/product-detail/C339274.html)
+    - 2x crimp contacts: JST - SXH-001T-P0.6: [LCSC](https://www.lcsc.com/product-detail/C140573.html?s_z=n_C140573) (same for the power switch connector!)
+    - 1x cable: Lapp - Unitronic Sensor LIFY11Y 5x0.25 7038862: [automation24.de](https://www.automation24.de/pur-sensorleitung-lapp-unitronic-sensor-lify11y-5x0-25-bk-7038862)
+- 1x OLED Display
     - Multiple: [LCSC](https://www.lcsc.com/product-detail/C5248080.html), [Aliexpress](https://de.aliexpress.com/item/32896971385.html)
-- Display button
+- 1x Display button
     - Hole diamter 12mm
     - YIYUAN - YTS8P012NL1*T00: [LCSC](https://www.lcsc.com/search?q=%2509%2520YTS8P012NL1&s_z=n_%2509%2520YTS8P012NL1)
     - Multiple: [Aliexpress](https://de.aliexpress.com/item/1005003302861259.html)

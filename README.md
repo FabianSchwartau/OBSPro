@@ -53,7 +53,7 @@ Here is a list of parts and potential sources you will need besides the parts li
 - 14x M3x8 screws (DIN912)
     - Used for: 4x main housing, 4x PCB, 3x display housing, 2x display cable strain relive, 4x main housing mounting.
     - Multiple: [Gedex](https://www.gedex-shop.de/de/schrauben/INNENSECHKANT/Zylinderkopf-DIN-912/DIN-912-M3-Innensechskantschrauben-mit-Zylinderkopf-Edelstahl-rostfrei-A2/DIN-912-M3-Innensechskantschrauben-mit-Zylinderkopf-Edelstahl-rostfrei-A2-637/), [LCSC](https://www.lcsc.com/product-detail/C5138485.html), [LCSC](https://www.lcsc.com/product-detail/C7576553.html), [LCSC](https://www.lcsc.com/product-detail/C2931407.html)
-- M3x30 screw (DIN912)
+- 1x M3x30 screw (DIN912)
     - Used for the locking pin.
     - Multiple: [Gedex](https://www.gedex-shop.de/de/schrauben/INNENSECHKANT/Zylinderkopf-DIN-912/DIN-912-M3-Innensechskantschrauben-mit-Zylinderkopf-Edelstahl-rostfrei-A2/DIN-912-M3-Innensechskantschrauben-mit-Zylinderkopf-Edelstahl-rostfrei-A2-644/), [LCSC](https://www.lcsc.com/product-detail/C7576562.html)
 - 6x M3 nuts (DIN934)
@@ -71,7 +71,7 @@ Here is a list of parts and potential sources you will need besides the parts li
     - YIYUAN - YTS8P012NL1*T00: [LCSC](https://www.lcsc.com/search?q=%2509%2520YTS8P012NL1&s_z=n_%2509%2520YTS8P012NL1)
     - Multiple: [Aliexpress](https://de.aliexpress.com/item/1005003302861259.html)
 - 2x Display magnets
-    - Multiple: [supermagenete.de](https://www.supermagnete.de/quadermagnete-neodym/quadermagnet-20mm-10mm-2mm_Q-20-10-02-N), [sprintis.dec](https://www.sprintis.de/Magnete/Neodym-Magnete/Quadermagnete/Quadermagnete-aus-Neodym-selbstklebend-vernickelt-20-x-10-mm-2-mm.html?srsltid=AfmBOooFJYLF1w9vNQhUhhs5Xz6w4rUWuafPjBX82WW8DYnTrlxcYFAK) (with glue), [sprintis.de](https://www.sprintis.de/Magnete/Neodym-Magnete/Quadermagnete/Quadermagnete-aus-Neodym-vernickelt-20-x-10-mm-2-mm.html) (without glue)
+    - Multiple: [supermagenete.de](https://www.supermagnete.de/quadermagnete-neodym/quadermagnet-20mm-10mm-2mm_Q-20-10-02-N), [sprintis.de](https://www.sprintis.de/Magnete/Neodym-Magnete/Quadermagnete/Quadermagnete-aus-Neodym-selbstklebend-vernickelt-20-x-10-mm-2-mm.html?srsltid=AfmBOooFJYLF1w9vNQhUhhs5Xz6w4rUWuafPjBX82WW8DYnTrlxcYFAK) (with glue), [sprintis.de](https://www.sprintis.de/Magnete/Neodym-Magnete/Quadermagnete/Quadermagnete-aus-Neodym-vernickelt-20-x-10-mm-2-mm.html) (without glue)
 - 3D printed parts
     - It is recommended to print in PETG or ASA, PLA may also work but is brittle.
     - Main case (required): 1x [MainCaseBottom](https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseBottom.stl), 1x [MainCaseTop](https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseTop.stl), 1x [MainCaseSlideCover](https://github.com/FabianSchwartau/OBSPro/blob/main/mechanics/MainCaseSlideCover.stl)
@@ -83,3 +83,6 @@ Here is a list of parts and potential sources you will need besides the parts li
 Here is an image of the current board. The parts are roughly placed and a small part is routed. Also there are a bunch of 3D models still missing.
 
 ![](OBSPro_3D.png)
+
+# Software
+TODO: Link to the software and how to flash the device.

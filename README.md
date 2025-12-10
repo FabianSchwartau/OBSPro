@@ -65,11 +65,12 @@ Here is a list of parts and potential sources you will need besides the parts li
     - 2x crimp contacts: JST - SXH-001T-P0.6: [LCSC](https://www.lcsc.com/product-detail/C140573.html?s_z=n_C140573) (same for the power switch connector!)
     - 1x 2m cable: Lapp - Unitronic Sensor LIFY11Y 5x0.25 7038862: [automation24.de](https://www.automation24.de/pur-sensorleitung-lapp-unitronic-sensor-lify11y-5x0-25-bk-7038862)
 - 1x OLED Display
-    - Multiple: [LCSC](https://www.lcsc.com/product-detail/C5248080.html), [Aliexpress](https://de.aliexpress.com/item/32896971385.html)
+    - Multiple: [Aliexpress](https://de.aliexpress.com/item/32896971385.html), [Alibaba](https://www.alibaba.com/product-detail/TZT-ROHS-Certification-0-96-inch_1600751684857.html), [LCSC](https://www.lcsc.com/product-detail/C5248080.html) (does not fit)
 - 1x Display button
     - Hole diamter 12mm
-    - YIYUAN - YTS8P012NL1*T00: [LCSC](https://www.lcsc.com/search?q=%2509%2520YTS8P012NL1&s_z=n_%2509%2520YTS8P012NL1)
+    - Daier - PBS-33B: [chinadaier.com](https://www.chinadaier.com/pbs-33b-mini-round-momentary-push-button-switch/) (for mass order)
     - Multiple: [Aliexpress](https://de.aliexpress.com/item/1005003302861259.html)
+    - YIYUAN - YTS8P012NL1*T00: [LCSC](https://www.lcsc.com/search?q=%2509%2520YTS8P012NL1&s_z=n_%2509%2520YTS8P012NL1) (too long)
 - 2x Display magnets
     - Multiple: [supermagenete.de](https://www.supermagnete.de/quadermagnete-neodym/quadermagnet-20mm-10mm-2mm_Q-20-10-02-N), [sprintis.de](https://www.sprintis.de/Magnete/Neodym-Magnete/Quadermagnete/Quadermagnete-aus-Neodym-selbstklebend-vernickelt-20-x-10-mm-2-mm.html?srsltid=AfmBOooFJYLF1w9vNQhUhhs5Xz6w4rUWuafPjBX82WW8DYnTrlxcYFAK) (with glue), [sprintis.de](https://www.sprintis.de/Magnete/Neodym-Magnete/Quadermagnete/Quadermagnete-aus-Neodym-vernickelt-20-x-10-mm-2-mm.html) (without glue)
 - 3D printed parts

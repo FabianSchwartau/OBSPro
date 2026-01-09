@@ -48,7 +48,7 @@ Here is a list of parts and potential sources you will need besides the parts li
     - MK - MKUS128M-IGT1: [LCSC](https://www.lcsc.com/product-detail/C22374947.html)
     - SDTRUVAL - SDSDQAB-128M-SDWHA: [LCSC](https://www.lcsc.com/product-detail/C51885978.html)
 - 8x Threaded insert nuts M3, ~5mm length, ~4.2mm outer diameter
-    - Multiple: [Aliexpress](https://de.aliexpress.com/item/1005003453080262.html)
+    - Multiple: [Aliexpress](https://de.aliexpress.com/item/1005003453080262.html), [ruthex](https://www.ruthex.de/products/ruthex-gewindeeinsatz-m3-100-stuck-rx-m3x5-7-messing-gewindebuchsen?variant=52123751121160), [Amazon](https://www.amazon.de/Einpressmuttern-Einschmelzgewinde-Gewindeeins%C3%A4tze-Inschmelzmuttern-Kunststoffteile/dp/B0D3DZXT4R/), [Amazon](https://www.amazon.de/Gewindeeinsatz-Einschmelzgewinde-Einpressmuttern-Gewindebuchse-Kunststoffschale/dp/B0D17FGQWW/)
 - 14x M3x8 screws (DIN912)
     - Used for: 4x main housing, 4x PCB, 3x display housing, 2x display cable strain relive, 4x main housing mounting.
     - Multiple: [Gedex](https://www.gedex-shop.de/de/schrauben/INNENSECHKANT/Zylinderkopf-DIN-912/DIN-912-M3-Innensechskantschrauben-mit-Zylinderkopf-Edelstahl-rostfrei-A2/DIN-912-M3-Innensechskantschrauben-mit-Zylinderkopf-Edelstahl-rostfrei-A2-637/), [LCSC](https://www.lcsc.com/product-detail/C5138485.html), [LCSC](https://www.lcsc.com/product-detail/C7576553.html), [LCSC](https://www.lcsc.com/product-detail/C2931407.html)

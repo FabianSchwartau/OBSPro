@@ -8,7 +8,7 @@ This is a different version of the OpenBikeSensor main PCB (checkout https://git
 At the moment we are aiming to get almost all parts from LCSC/JLCPCB, which is a good mixture of trustworthiness/reliability and price. JLC also offers a PCB assemby service, which is used. If you only want one or two boards, it is probably not woth it, but for larger orders it makes perfect sense.
 
 # GPS
-There are multiple option for the GPS module. You can use any MAX-8* or MAX-10* from u-blox, which cost around 20€ for single quantities. The pinout is also compatible with the ATGM336H-5N* modules from Zhongkewei. It costs only around 5€, but the performance still needs to be evaluated.
+There are multiple options for the GPS module. You can use any MAX-8* or MAX-10* from u-blox, which cost around 20€ for single quantities. The pinout is also compatible with the ATGM336H-5N* modules from Zhongkewei. It only costs around 5€, but the performance still needs to be evaluated.
 
 # BOM
 Here is a list of parts and potential sources you will need besides the parts listed in the BOM file of the PCB itself.
@@ -24,8 +24,7 @@ Here is a list of parts and potential sources you will need besides the parts li
     - 2x ultrasonic transducer
         - HYDZ: HY40A16T12-1: [LCSC](https://www.lcsc.com/product-detail/C17701106.html)
 - GPS antenna
-    - BAT WIRELESS - BWGNSCNX18-18B1Y4L120: [LCSC](https://www.lcsc.com/product-detail/C784383.html)
-    - BAT WIRELESS - BWGNSCNX20-20B1Y4L120: [LCSC](https://www.lcsc.com/product-detail/C784384.html)
+    - BAT WIRELESS - BWGNSCNX25-25B1Y2L120: [LCSC](https://www.lcsc.com/product-detail/C784385.html)
 - Battery
     - Probably any 18650 style Lipo battery will do. As you need to solder the connectors to the battery, one with U-shaped strips already attached is recommended.
     - Samsung - INR18650-20R [akkuteile.de](https://www.akkuteile.de/lithium-ionen-akkus/18650/samsung/samsung-inr18650-20r-2000mah-3-7v-10c-20a-powertoolzelle-u-loetfahne_1006511_1668)
@@ -34,17 +33,17 @@ Here is a list of parts and potential sources you will need besides the parts li
     - 1x complete assembly: XKB Connection - X2510T-02-PSN-A22RB-L300-T5: [LCSC](https://www.lcsc.com/product-detail/C7423671.html) (if you buy this, you do not need the parts below)
     - 1x connector: XKB Connection - X2510H-02-N0: [LCSC](https://www.lcsc.com/product-detail/C843320.html)
     - 2x crimp contacts: XKB Connection - X2510T-PSN: [LCSC](https://www.lcsc.com/product-detail/C883292.html)
-    - 2x cable (use any ~0.25mm² cable you can find): XFCN - XF7122/XF7133: [LCSC](https://www.lcsc.com/product-detail/C42393296.html), [LCSC](https://www.lcsc.com/product-detail/C42393307.html?s_z=n_XFCN%2520XF71) (same for battery connector!)
+    - 2x cable (use any ~0.25mm² cable you can find, same for power switch connector)
 - 2x zip ties
     - Maximum width: 4.5 mm, minimum length: 70 mm.
     - [LCSC](https://www.lcsc.com/product-detail/C5264191.html), [LCSC](https://www.lcsc.com/product-detail/C4944856.html), [LCSC](https://www.lcsc.com/product-detail/C5197740.html), your local hardware store, ...
 - 1x Power switch
-    - YUEN FUNG - ST-0-102-A01-T000-LF: [LCSC](https://www.lcsc.com/product-detail/C1788487.html)
+    - YUEN FUNG - MT-0-102-A101-M200-RS: [LCSC](https://www.lcsc.com/product-detail/C1788492.html)
 - Power switch cable + connector + crimp contacts
     - 1x complete assembly: SHOU HAN - 2.54-2P DT 200mm 24AWG: [LCSC](https://www.lcsc.com/product-detail/C5363463.html) (if you buy this, you do not need the parts below)
     - 1x connector: JST - XHP-2: [LCSC](https://www.lcsc.com/product-detail/C144401.html)
     - 2x crimp contacts: JST - SXH-001T-P0.6: [LCSC](https://www.lcsc.com/product-detail/C140573.html?s_z=n_C140573) (same for the display connector!)
-    - 2x cable (use any ~0.25mm² cable you can find): XFCN - XF7122/XF7133: [LCSC](https://www.lcsc.com/product-detail/C42393296.html), [LCSC](https://www.lcsc.com/product-detail/C42393307.html?s_z=n_XFCN%2520XF71) (same for battery connector!)
+    - 2x cable (use any ~0.25mm² cable you can find, same for battery connector)
 - 1x SD card
     - MK - MKUS128M-IGT1: [LCSC](https://www.lcsc.com/product-detail/C22374947.html)
     - SDTRUVAL - SDSDQAB-128M-SDWHA: [LCSC](https://www.lcsc.com/product-detail/C51885978.html)
@@ -67,10 +66,8 @@ Here is a list of parts and potential sources you will need besides the parts li
 - 1x OLED Display
     - Multiple: [Aliexpress](https://de.aliexpress.com/item/32896971385.html), [Alibaba](https://www.alibaba.com/product-detail/TZT-ROHS-Certification-0-96-inch_1600751684857.html), [LCSC](https://www.lcsc.com/product-detail/C5248080.html) (does not fit)
 - 1x Display button
-    - Hole diamter 12mm
     - Daier - PBS-33B: [chinadaier.com](https://www.chinadaier.com/pbs-33b-mini-round-momentary-push-button-switch/) (for mass order)
     - Multiple: [Aliexpress](https://de.aliexpress.com/item/1005003302861259.html)
-    - YIYUAN - YTS8P012NL1*T00: [LCSC](https://www.lcsc.com/search?q=%2509%2520YTS8P012NL1&s_z=n_%2509%2520YTS8P012NL1) (too long)
 - 2x Display magnets
     - Multiple: [supermagenete.de](https://www.supermagnete.de/quadermagnete-neodym/quadermagnet-20mm-10mm-2mm_Q-20-10-02-N), [sprintis.de](https://www.sprintis.de/Magnete/Neodym-Magnete/Quadermagnete/Quadermagnete-aus-Neodym-selbstklebend-vernickelt-20-x-10-mm-2-mm.html?srsltid=AfmBOooFJYLF1w9vNQhUhhs5Xz6w4rUWuafPjBX82WW8DYnTrlxcYFAK) (with glue), [sprintis.de](https://www.sprintis.de/Magnete/Neodym-Magnete/Quadermagnete/Quadermagnete-aus-Neodym-vernickelt-20-x-10-mm-2-mm.html) (without glue)
 - 3D printed parts
